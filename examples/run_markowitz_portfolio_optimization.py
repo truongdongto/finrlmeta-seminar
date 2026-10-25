@@ -31,8 +31,6 @@ def data_split(df, start, end, target_date_col="time"):
 
 
 # example markowitz agent using info dict from environment to do optimization at each time step
-
-
 class MarkowitzAgent:
     """Provides implementations for Markowitz agent (mean-variance optimization)
     Attributes
